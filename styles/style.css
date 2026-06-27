@@ -1,0 +1,44 @@
+/* :root {
+  --bg-color;
+  --text-color;
+
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: var(--bg-color, #f3efec);
+  font-family: var(--main-text, 'Raleway'), serif;
+  font-weight: 400;
+  color: var(--text-color, #312a4e);
+  min-inline-size: 360px;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+.heading {
+  font-family: var(--heading-text, 'STIX Two Text'), sans-serif;
+  font-weight: 600;
+  line-height: 90%;
+  text-align: center;
+}
+
+.content-section {
+  padding-left: 5vi;
+  padding-right: 5vi;
+}
